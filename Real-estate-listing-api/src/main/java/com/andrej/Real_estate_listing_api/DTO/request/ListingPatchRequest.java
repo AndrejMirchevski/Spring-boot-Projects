@@ -15,7 +15,7 @@ public record ListingPatchRequest(
 
         ListingKind listingKind,
 
-        PropertyType propertyType,
+        PropertyType type,
 
         @DecimalMin(value = "0.01")
         @Digits(integer = 10, fraction = 2)
